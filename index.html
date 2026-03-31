@@ -7,26 +7,32 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html" class="logo">NH</a>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">◆</span> NH
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="hero">
+  <main class="container">
+    <section class="hero">
       <h1>Nathan Harrison</h1>
-      <p>Welcome to my personal page.</p>
+      <p class="hero-sub">Welcome to my personal page.</p>
     </section>
 
     <section id="about">
       <h2>About Me</h2>
-      <p>Hello! I'm Nathan. Update this section with a bit about yourself.</p>
+      <div class="about-card glass">
+        <p>Hello! I'm Nathan. Update this section with a bit about yourself.</p>
+      </div>
     </section>
 
     <section id="projects">
@@ -47,14 +53,14 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Feel free to reach out!</p>
+      <p style="color: var(--text-muted); margin-bottom: 1rem;">Feel free to reach out!</p>
       <ul class="contact-links">
         <li><a href="https://github.com/345Nathan-Harrison">GitHub</a></li>
       </ul>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>&copy; 2026 Nathan Harrison</p>
   </footer>
 </body>
