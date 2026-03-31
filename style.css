@@ -62,7 +62,7 @@ body::after {
 /* ── Layout ──────────────────────────────────────────────────── */
 
 .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; width: 100%; position: relative; z-index: 1; }
-main.container { flex: 1; padding-top: 2rem; padding-bottom: 3rem; }
+main.container { flex: 1; padding-top: 1.5rem; padding-bottom: 4rem; }
 
 /* ── Glass utility ───────────────────────────────────────────── */
 
@@ -125,7 +125,7 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 5rem 0 3rem;
+    padding: 3rem 0 2rem;
     position: relative;
     z-index: 1;
 }
@@ -165,7 +165,7 @@ nav a:hover {
 section {
     position: relative;
     z-index: 1;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 section h2 {
@@ -272,12 +272,15 @@ section h2 {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-top: 1px solid rgba(255,255,255,0.08);
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     text-align: center;
     color: var(--text-muted);
     font-size: 0.85rem;
-    position: relative;
-    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
 }
 
 /* ── Responsive ──────────────────────────────────────────────── */
