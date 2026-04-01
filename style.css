@@ -160,6 +160,17 @@ nav a:hover {
     margin: 0 auto 2rem;
     line-height: 1.7;
 }
+.github-username {
+    display: inline-block;
+    color: var(--accent);
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.github-username:hover {
+    text-decoration: underline;
+}
 
 /* ── Sections ─────────────────────────────────────────────────── */
 
